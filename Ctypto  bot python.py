@@ -6,8 +6,8 @@ from aiocryptopay import AioCryptoPay, Networks
 import asyncio
 import requests
 
-crypto = AioCryptoPay(token='8714:AAUUr4JvyOlgJwk1NW0pWm6q83Y9CvYsgsL', network=Networks.TEST_NET)
-bot = telebot.TeleBot('6030011051:AAGJ-iNvagpkwCIEXqBDn9ZH-RcYy3lHDtQ')
+crypto = AioCryptoPay(token='', network=Networks.TEST_NET)
+bot = telebot.TeleBot('')
 
 conn = sqlite3.connect('yourdatabase.db', check_same_thread=False)
 cursor = conn.cursor()
